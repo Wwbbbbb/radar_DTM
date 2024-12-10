@@ -1,14 +1,14 @@
 clc;
 close all;
 dbstop if error;
-fileName = 'adc_data3.bin';
+fileName = 'swing1T4R.bin';
 %% 基本参数设置
 numOfADCSamples = 128;
 numOfChirpsInFrame = 128;
 adcSampleByte = 2;
 IQ = 2;
 numOfADCBits = 16;
-TX = 2;
+TX = 1;
 RX = 4;
 adcBinInfo = dir(fileName);
 adcBinSize = adcBinInfo.bytes;
