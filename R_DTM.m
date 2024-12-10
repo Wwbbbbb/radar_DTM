@@ -1,14 +1,14 @@
 clc;
-close all;
+% close all;
 dbstop if error;
-fileName = 'swing1T4R.bin';
+fileName = 'backward1T4R.bin';
 %% 基本参数设置
 numOfADCSamples = 128;
 numOfChirpsInFrame = 128;
 adcSampleByte = 2;
 IQ = 2;
 numOfADCBits = 16;
-TX = 1;
+TX = 2;
 RX = 4;
 adcBinInfo = dir(fileName);
 adcBinSize = adcBinInfo.bytes;
